@@ -1,0 +1,28 @@
+.container{
+    position:absolute;
+    left:190px;
+    background-color:white;
+    padding:10px;
+    width:80%;
+    word-wrap: normal;
+}
+
+button {
+    font-size: 18px;
+    padding: 6px;
+    border: 0;
+    outline: none;
+    background-color: tomato;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+#phones-list{
+    display:block;
+}
+
+#notebooks-list{
+    display:none;
+}

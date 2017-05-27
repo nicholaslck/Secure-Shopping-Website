@@ -1,0 +1,17 @@
+.product{
+    display:inline-flex;
+}
+
+.product .picture{
+    margin-right:20px;
+}
+
+.product .details{
+    margin-right:20px;
+}
+
+.product .thumbnail{
+    height:600px;
+    width: 600px;
+}
+

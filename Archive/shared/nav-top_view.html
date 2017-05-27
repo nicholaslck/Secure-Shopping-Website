@@ -1,0 +1,28 @@
+<h1 class="title right-inline">AStore</h1>
+<p class="right-inline">The greatest store you have ever been.</p>
+<div class='login'>
+	<a href="login.php">Login as Admin</a>
+</div>
+<div class="dropdown">
+	<h1 class="dropbtn">Shopping List</h1>
+	<div class="dropdown-content" id="dropdown-content">
+		<form id="cart_form" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="POST" onsubmit="return cartSubmit()">
+			<div id="cart">
+	            <!-- <section id=cart_item1> <p>iPhone 6</p> <input type="number"> <p>@ $6999</p></section>
+	            <section> <p>K2 phone</p> <input type="number"> <p>@ $4250</p></section>
+	            <section> <p>S9 Spider</p> <input type="number"> <p>@ $7998</p></section> -->
+            </div>
+            <input type="hidden" name="cmd" value="_cart">
+            <input type="hidden" name="upload" value="1">
+            <INPUT type="hidden" name="charset" value="utf-8">
+            
+            <input type="hidden" name="business" value="nicholaslck-facilitator@gmail.com">
+<!--             <input type="hidden" name="custom" value="0">
+            <input type="hidden" name="invoice" value="0"> -->
+            <button id="btncheckout" type="submit" class="submit-btn" value="Checkout">Submit</button>
+            <button id="clear-cart">Clear</button>
+            <p id='total_price'>Total Price: </p>
+		</form>
+	</div>
+</div>
+

@@ -1,0 +1,60 @@
+.nav-top{
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#0062af;
+    color:#f1f1f1;
+}
+
+.nav-top .title{
+    font-size: 60px;
+}
+
+.nav-top .right-inline{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav-top .login{
+    float: right;
+}
+
+.nav-top .login a{
+    position:relative;
+
+}
+
+.dropdown {
+    float:right;
+    z-index: 998;
+}
+
+.dropbtn{
+    position:relative;
+    right:20px;
+    top:100px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right:10px;
+    top:155px;
+    background-color: #f9f9f9;
+    width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 999;
+}
+
+.dropdown-content form section *, #total_price{
+    color: black;
+    padding: 12px 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+

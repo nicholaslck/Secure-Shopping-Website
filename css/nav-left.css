@@ -1,0 +1,25 @@
+.nav-left{
+    position:absolute;
+    left:8px;
+    height:100%;
+    width:150px;
+    background-color: lightgrey;
+    padding: 15px 10px;
+    border-right: solid black;
+}
+
+.nav-left nav{
+    font-size: 20px;
+}
+
+.nav-left nav a{
+    display: block;
+    height: 50px;
+    width: auto;
+    text-align: center;
+
+}
+
+.nav-left nav a:hover{
+    background-color: grey;
+}

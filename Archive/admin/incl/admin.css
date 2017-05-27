@@ -1,0 +1,25 @@
+fieldset{width:310px}
+form label{clear:left;float:left;width:90px;line-height:29px}
+form div{padding:4px 0}
+input[type=text],input[type=number],select,textarea{width:200px}
+
+#categoryPanel,#categoryEditPanel{float:left;width:350px;border-right:1px solid #CCC}
+/*For any new panel please use the follow css*/
+#productPanel,#productEditPanel,#userEditPanel{
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	border-right:1px solid #CCC;
+}
+/*For any new panel please use the above css*/
+
+#categoryList span{cursor:pointer;text-decoration:underline;color:#00F}
+#categoryList span:hover{text-decoration:none}
+#categoryList span.edit, #categoryList span.delete{float:right;padding-right:10px}
+
+#productList span{cursor:pointer;text-decoration:underline;color:#00F}
+#productList span:hover{text-decoration:none}
+#productList span.edit, #productList span.delete{float:right;padding-right:10px}
+
+.hide{display:none}
+.clear{clear:both}
